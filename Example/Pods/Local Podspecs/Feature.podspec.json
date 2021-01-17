@@ -1,0 +1,22 @@
+{
+  "name": "Feature",
+  "version": "0.1.0",
+  "summary": "A short description of Feature.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Suresheee38@gmail.com/Feature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Suresheee38@gmail.com": "suresheee38@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Suresheee38@gmail.com/Feature.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Feature/Classes/**/*"
+}
