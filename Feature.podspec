@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Feature/Classes/**/*'
+  s.subspec 'Source' do |source|
+    source.source_files = 'Feature/Classes/**/*'
+  end
   
   # s.resource_bundles = {
   #   'Feature' => ['Feature/Assets/*.png']

@@ -1,5 +1,7 @@
 PODS:
-  - Feature (0.1.0)
+  - Feature (0.1.0):
+    - Feature/Source (= 0.1.0)
+  - Feature/Source (0.1.0)
 
 DEPENDENCIES:
   - Feature (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Feature: d7f28607afaf97d85e64ce4302e3fee23b0850af
+  Feature: b04cd2b46f702a7ee63be7f96f388a9c1d155364
 
 PODFILE CHECKSUM: c7888027524cff45c78c6a58eeecb4b55ede86b3
 

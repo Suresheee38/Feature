@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Feature/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "Feature/Classes/**/*"
+    }
+  ]
 }
