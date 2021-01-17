@@ -1,18 +1,46 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Feature (0.1.0):
-    - Feature/Source (= 0.1.0)
-  - Feature/Source (0.1.0)
+    - AFNetworking (~> 2.3)
+    - Feature/Classes (= 0.1.0)
+  - Feature/Classes (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - Feature (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   Feature:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Feature: b04cd2b46f702a7ee63be7f96f388a9c1d155364
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Feature: 9a11fa5d6e7fe32e1ead9b2d48a2621239803400
 
-PODFILE CHECKSUM: c7888027524cff45c78c6a58eeecb4b55ede86b3
+PODFILE CHECKSUM: d28a4622f2483074ae5112b641c2fe562951043d
 
 COCOAPODS: 1.9.1

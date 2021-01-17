@@ -28,17 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Suresheee38@gmail.com/Feature.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.subspec 'Source' do |source|
-    source.source_files = 'Feature/Classes/**/*'
+  s.ios.deployment_target = '11.0'
+  s.subspec 'Classes' do |classes|
+  classes.source_files = 'Feature/Classes/Source/**/*.swift', 'fixup_project_structure'
   end
-  
   # s.resource_bundles = {
   #   'Feature' => ['Feature/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
